@@ -1,0 +1,28 @@
+header{
+     position: absolute;
+}
+.menu_1{
+     Position: relative;
+     display: inline-block;
+     border: 1px solid black;
+     height: 5em;
+     background-color: #532C6D;
+     Color: #FFFFFF;
+     width: 100%;
+}
+.menu_2{
+     position: relative;
+     display:inline-block;
+     border: 1px solid black;
+     height: 5em;
+     background-color: #0E0808;
+     color: #FFFFFF;
+     Width: 100%;
+}
+.hero-image{
+     position: relative;
+}
+.hero-text{
+     position: relative;
+     
+}
