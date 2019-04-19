@@ -2,7 +2,7 @@
   body{
     width:100%;
   }  
-  .mobile-container {
+  .container {
       max-width: 100%;
       margin: 0;
       color: white;
@@ -18,6 +18,7 @@
     
     .topnav #myLinks {
       display: none;
+      float:right;
     }
     
     .topnav a {
@@ -37,15 +38,9 @@
     }
     
     .topnav a:hover {
-      background-color: #ddd;
       color: black;
+      background-color: lightslategray;
     }
-    
-    .active {
-      background-color: #532c60;
-      color: white;
-    }
-
     .treveccaLogo{
         width:80%;
     }
@@ -53,26 +48,22 @@
       width:100%;
       position: relative;
       background-color: black;
-      height:6em;
-    }
-    .bottomnav .bottomnav-logo aside{
-      width: 100%;
-      height: 6em;
-      display: block;
-    }
-    .bottomnav .bottomnav-logo aside img{
-      width:100%;
+      height:7em;
     }
     .bottomnav .bottomnav-logo {
       width:50%;
-      display:inline;
       float: left;
       background-size: cover;
+    }
+    .bottomnav .bottomnav-logo aside{
+      width: 100%;
+    }
+    .bottomnav .bottomnav-logo aside img{
+      width:90%;
     }
     .bottomnav .bottomnav-links{
       width:50%;
       background-color: black;
-      float: right;
       display: inline-block;
       height: 6em;
     }
@@ -86,7 +77,6 @@
       width:100%;
       margin:.25em;
       font-size: 1.15em;
-      border-radius: 8%;
     }
     .hero-image{
       position:relative;
@@ -126,7 +116,7 @@
   body{
     width:100%;
   }  
-  .mobile-container {
+  .container {
       max-width: 320px;
       margin: 0;
       color: white;
@@ -162,14 +152,12 @@
     }
     
     .topnav a:hover {
-      background-color: #ddd;
       color: black;
       transition-duration: .5s;
     }
     
-    .active {
+    #trevecca-logo {
       background-color: #532c60;
-      color: white;
     }
 
     .treveccaLogo{
@@ -179,26 +167,22 @@
       width:100%;
       position: relative;
       background-color: black;
-      height:6em;
+      height:7em;
     }
     .bottomnav .bottomnav-logo aside{
       width: 100%;
-      height: 6em;
-      display: block;
     }
     .bottomnav .bottomnav-logo aside img{
-      width:100%;
+      width:90%;
     }
     .bottomnav .bottomnav-logo {
       width:50%;
-      display:inline;
       float: left;
       background-size: cover;
     }
     .bottomnav .bottomnav-links{
       width:50%;
       background-color: black;
-      float: right;
       display: inline-block;
       height: 6em;
     }
@@ -212,7 +196,6 @@
       width:100%;
       margin:.25em;
       font-size: 1.15em;
-      border-radius: 8%;
     }
     .hero-image{
       background-color:black;
@@ -269,7 +252,7 @@
      body{
        width:100%;
      }
-    .mobile-container {
+    .container {
         max-width:480px;
         margin: auto;
       }
@@ -300,14 +283,11 @@
       }
       
       .topnav a:hover {
-        background-color: #ddd;
-        color: black;
         transition-duration: .5s;
       }
       
-      .active {
+      #trevecca-logo {
         background-color: #532c60;
-        color: white;
       }
   
       .treveccaLogo{
@@ -328,15 +308,12 @@
         width:100%;
       }
       .bottomnav .bottomnav-logo {
-        width:50%;
         display:inline;
-        float: left;
         background-size: cover;
       }
       .bottomnav .bottomnav-links{
         width:50%;
         background-color: black;
-        float: right;
         display: inline-block;
         height: 6em;
       }
@@ -350,7 +327,6 @@
         width:100%;
         margin:.25em;
         font-size: 1.15em;
-        border-radius: 8%;
       }
       .hero-image{
         background-color:black;
@@ -406,7 +382,7 @@
     body{
       width:100%;
     }
-   .mobile-container {
+   .container {
        max-width:100%;
        margin: auto;
      }
@@ -437,14 +413,11 @@
      }
      
      .topnav a:hover {
-       background-color: #ddd;
-       color: black;
        transition-duration: .5s;
      }
      
-     .active {
+     #trevecca-logo {
        background-color: #532c60;
-       color: white;
      }
  
      .treveccaLogo{
@@ -465,15 +438,12 @@
        width:100%;
      }
      .bottomnav .bottomnav-logo {
-       width:50%;
        display:inline;
-       float: left;
        background-size: cover;
      }
      .bottomnav .bottomnav-links{
        width:50%;
        background-color: black;
-       float: right;
        display: inline-block;
        height: 6em;
      }
@@ -487,7 +457,6 @@
        width:100%;
        margin:.25em;
        font-size: 1.15em;
-       border-radius: 8%;
      }
      .hero-image{
        background-color:black;
@@ -540,14 +509,14 @@
  }
  /** Start 750px or more **/
  @media only screen and (min-width: 750px){
-   .mobile-container {
+  .container {
        max-width:100%;
        margin: auto;
      }
      
      .topnav {
        overflow: hidden;
-       background-color: #333;
+       background-color: #532c60;
        position: relative;
      }
      
@@ -576,9 +545,10 @@
        transition-duration: .5s;
      }
      
-     .active {
+     #trevecca-logo {
        background-color: #532c60;
-       color: white;
+       float:left;
+       width:30%;
      }
  }
   /** Start 1920px or more **/

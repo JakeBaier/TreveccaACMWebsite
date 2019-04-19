@@ -15,9 +15,10 @@
 
 <body>
     <header>
-        <div class="mobile-container">
-          <div class="topnav">
-            <a href="https://www.trevecca.edu/" class="active"><img class="treveccaLogo" src="images/Trevecca-logo.png"></a>
+        <div class="container">
+          <nav class="topnav">
+              <a href="javascript:void(0);" class = "icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            <a href="https://www.trevecca.edu/" id="trevecca-logo"><img class="treveccaLogo" src="images/Trevecca-logo.png"></a>
             <div id="myLinks">
               <a href="https://www.trevecca.edu/offices-services">Offices & Services</a>
               <a href="https://www.trevecca.edu/news">News</a>
@@ -26,14 +27,13 @@
               <a href="https://login.trevecca.edu/adfs/ls?wa=wsignin1.0&wtrealm=urn%3atnu4u.trevecca.edu%3a443&wctx=https%3a%2f%2ftnu4u.trevecca.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F">TNU4U</a>
               <a href="https://blog.trevecca.edu">Blog</a>
               <a href="https://www.trevecca.edu/program-chooser">Pick A Major</a>
-            </div>
-            <a href="javascript:void(0);" class = "icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            </nav>
           </div>
         </div>
-          <div class= "bottomnav">
+          <nav class= "bottomnav">
             <section class="bottomnav-logo">
-              <a href="https://www.acm.org/">
               <aside>
+                <a href="https://www.acm.org/"></a>
                 <img src="images/acm_logo_tablet.svg">
               </aside>
             </section>
@@ -43,7 +43,7 @@
               <aside><a href="#">Join</a></aside>
             </section>
               
-          </div>
+          </nav>
           
       </header>
   <div class="hero-image">
@@ -70,14 +70,17 @@
   </div>
   <script>
   function myFunction() {
+    if(window.innerWidth <=749){
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
       x.style.display = "none";
-    } else {
+    }
+    else {
       x.style.display = "block";
     }
-  }
+  }}
   </script>
+
   <footer>
     
       <p>&copy;Trevecca Acm Chapter 2019</p>
