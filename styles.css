@@ -1,0 +1,588 @@
+  /** CSS without media qurie**/
+  body{
+    width:100%;
+  }  
+  .mobile-container {
+      max-width: 100%;
+      margin: 0;
+      color: white;
+      border-radius: 10px;
+      position: 0;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+      position: relative;
+    }
+    
+    .topnav #myLinks {
+      display: none;
+    }
+    
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .topnav a.icon {
+      background: black;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .active {
+      background-color: #532c60;
+      color: white;
+    }
+
+    .treveccaLogo{
+        width:80%;
+    }
+    .bottomnav {
+      width:100%;
+      position: relative;
+      background-color: black;
+      height:6em;
+    }
+    .bottomnav .bottomnav-logo aside{
+      width: 100%;
+      height: 6em;
+      display: block;
+    }
+    .bottomnav .bottomnav-logo aside img{
+      width:100%;
+    }
+    .bottomnav .bottomnav-logo {
+      width:50%;
+      display:inline;
+      float: left;
+      background-size: cover;
+    }
+    .bottomnav .bottomnav-links{
+      width:50%;
+      background-color: black;
+      float: right;
+      display: inline-block;
+      height: 6em;
+    }
+    .bottomnav .bottomnav-links aside a {
+      color: #ddd;
+      text-decoration: none;
+      background-color:grey;
+      text-align: center;
+      float:right;
+      display: block;
+      width:100%;
+      margin:.25em;
+      font-size: 1.15em;
+      border-radius: 8%;
+    }
+    .hero-image{
+      position:relative;
+    }
+    .hero-image img{
+        width:100%;
+    }
+    .hero-image .hero-text h1{
+      text-align: center;
+      position: absolute;
+      color:white;
+    }
+    .trevecca-trojans img{
+        width:100%;
+        border-radius: 2%;
+        opacity: 1;
+    }
+    .trevecca-trojans .card{
+      position: relative; 
+      width:100%;
+    }
+    .trevecca-trojans .absolute-text{
+        position:absolute;
+        color: #ddd;
+        font-size:3em;
+        bottom:10%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+    footer{
+        background-color: #532c60;
+        color: #ddd;
+        height:10em;
+        
+    }/** 350 or less **/
+@media only screen and (max-width:350px) {
+  body{
+    width:100%;
+  }  
+  .mobile-container {
+      max-width: 320px;
+      margin: 0;
+      color: white;
+      border-radius: 10px;
+      position: 0;
+    }
+
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+      position: relative;
+    }
+    
+    .topnav #myLinks {
+      display: none;
+    }
+    
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .topnav a.icon {
+      background: black;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      transition-duration: .5s;
+    }
+    
+    .active {
+      background-color: #532c60;
+      color: white;
+    }
+
+    .treveccaLogo{
+        width:80%;
+    }
+    .bottomnav {
+      width:100%;
+      position: relative;
+      background-color: black;
+      height:6em;
+    }
+    .bottomnav .bottomnav-logo aside{
+      width: 100%;
+      height: 6em;
+      display: block;
+    }
+    .bottomnav .bottomnav-logo aside img{
+      width:100%;
+    }
+    .bottomnav .bottomnav-logo {
+      width:50%;
+      display:inline;
+      float: left;
+      background-size: cover;
+    }
+    .bottomnav .bottomnav-links{
+      width:50%;
+      background-color: black;
+      float: right;
+      display: inline-block;
+      height: 6em;
+    }
+    .bottomnav .bottomnav-links aside a {
+      color: #ddd;
+      text-decoration: none;
+      background-color:grey;
+      text-align: center;
+      float:right;
+      display: block;
+      width:100%;
+      margin:.25em;
+      font-size: 1.15em;
+      border-radius: 8%;
+    }
+    .hero-image{
+      background-color:black;
+      margin-bottom: 1em;
+      border-bottom-left-radius: 2%;
+      border-bottom-right-radius: 2%;
+      position:relative;
+    }
+    .hero-image img{
+        width:100%;
+        opacity: .5;
+    }
+    .trevecca-trojans img{
+        width:320px;
+        border-radius: 2%;
+        background-color: rgba(0, 0, 0, 0.219);
+        opacity: .5;
+    }
+    .hero-image .hero-text h1{
+      text-align: center;
+      position: absolute;
+      color:white;
+      bottom: 20%;
+    }
+
+    .trevecca-trojans .card{
+      position: relative; 
+      width:100%;
+      background-color: #532c60;
+      border-radius: 2%;
+    }
+    .trevecca-trojans .card img{
+      opacity: .5;
+    }
+
+    .trevecca-trojans .absolute-text{
+        position:absolute;
+        color: #ddd;
+        font-size:3em;
+        bottom:10%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+    footer{
+        background-color: #532c60;
+        color: #ddd;
+        height:10em;
+        
+    }
+  }
+  /** End 350px or less **/
+  /**Start 351px to 375 **/
+  @media only screen and (min-width:351px){
+     body{
+       width:100%;
+     }
+    .mobile-container {
+        max-width:480px;
+        margin: auto;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: black;
+        color:#ddd;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        transition-duration: .5s;
+      }
+      
+      .active {
+        background-color: #532c60;
+        color: white;
+      }
+  
+      .treveccaLogo{
+          width:80%;
+      }
+      .bottomnav {
+        width:100%;
+        position: relative;
+        background-color: black;
+        height:6em;
+      }
+      .bottomnav .bottomnav-logo aside{
+        width: 100%;
+        height: 6em;
+        display: block;
+      }
+      .bottomnav .bottomnav-logo aside img{
+        width:100%;
+      }
+      .bottomnav .bottomnav-logo {
+        width:50%;
+        display:inline;
+        float: left;
+        background-size: cover;
+      }
+      .bottomnav .bottomnav-links{
+        width:50%;
+        background-color: black;
+        float: right;
+        display: inline-block;
+        height: 6em;
+      }
+      .bottomnav .bottomnav-links aside a {
+        color: #ddd;
+        text-decoration: none;
+        background-color:grey;
+        text-align: center;
+        float:right;
+        display: block;
+        width:100%;
+        margin:.25em;
+        font-size: 1.15em;
+        border-radius: 8%;
+      }
+      .hero-image{
+        background-color:black;
+        margin-bottom: 1em;
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+      }
+      .hero-image img{
+          width:100%;
+          opacity: .5;
+      }
+      .trevecca-trojans img{
+          width:100%;
+          border-radius: 2%;
+          background-color: rgba(0, 0, 0, 0.219);
+          opacity: .5;
+      }
+      .hero-image .hero-text h1{
+        text-align: center;
+        position: absolute;
+        color:white;
+        bottom:30%;
+      }
+  
+      .trevecca-trojans .card{
+        position: relative; 
+        width:100%;
+        background-color: #532c60;
+        border-radius: 2%;
+      }
+      .trevecca-trojans .card img{
+        opacity: .5;
+      }
+  
+      .trevecca-trojans .absolute-text{
+          position:absolute;
+          color: #ddd;
+          font-size:3em;
+          bottom:10%;
+          left:50%;
+          transform: translate(-50%, -50%);
+      }
+      footer{
+          background-color: #532c60;
+          color: #ddd;
+          height:10em;
+          
+      }
+  }
+  /** End 351px to 375 **/
+  /** Start 375 or more **/
+  @media only screen and (min-width:375px){
+    body{
+      width:100%;
+    }
+   .mobile-container {
+       max-width:100%;
+       margin: auto;
+     }
+     
+     .topnav {
+       overflow: hidden;
+       background-color: #333;
+       position: relative;
+     }
+     
+     .topnav #myLinks {
+       display: none;
+     }
+     
+     .topnav a {
+       color: white;
+       text-decoration: none;
+       display: block;
+     }
+     
+     .topnav a.icon {
+       background: black;
+       color:#ddd;
+       display: block;
+       position: absolute;
+       right: 0;
+       top: 0;
+     }
+     
+     .topnav a:hover {
+       background-color: #ddd;
+       color: black;
+       transition-duration: .5s;
+     }
+     
+     .active {
+       background-color: #532c60;
+       color: white;
+     }
+ 
+     .treveccaLogo{
+         width:80%;
+     }
+     .bottomnav {
+       width:100%;
+       position: relative;
+       background-color: black;
+       height:6em;
+     }
+     .bottomnav .bottomnav-logo aside{
+       width: 100%;
+       height: 6em;
+       display: block;
+     }
+     .bottomnav .bottomnav-logo aside img{
+       width:100%;
+     }
+     .bottomnav .bottomnav-logo {
+       width:50%;
+       display:inline;
+       float: left;
+       background-size: cover;
+     }
+     .bottomnav .bottomnav-links{
+       width:50%;
+       background-color: black;
+       float: right;
+       display: inline-block;
+       height: 6em;
+     }
+     .bottomnav .bottomnav-links aside a {
+       color: #ddd;
+       text-decoration: none;
+       background-color:grey;
+       text-align: center;
+       float:right;
+       display: block;
+       width:100%;
+       margin:.25em;
+       font-size: 1.15em;
+       border-radius: 8%;
+     }
+     .hero-image{
+       background-color:black;
+       margin-bottom: 1em;
+       border-bottom-left-radius: 2%;
+       border-bottom-right-radius: 2%;
+       position:relative;
+     }
+     .hero-image img{
+         width:100%;
+         opacity: .5;
+     }
+     .trevecca-trojans img{
+         width:100%;
+         border-radius: 2%;
+         background-color: rgba(0, 0, 0, 0.219);
+         opacity: .5;
+     }
+     .hero-image .hero-text h1{
+       text-align: center;
+       position: absolute;
+       color:white;
+       bottom:30%;
+     }
+ 
+     .trevecca-trojans .card{
+       position: relative; 
+       width:100%;
+       background-color: #532c60;
+       border-radius: 2%;
+     }
+     .trevecca-trojans .card img{
+       opacity: .5;
+     }
+ 
+     .trevecca-trojans .absolute-text{
+         position:absolute;
+         color: #ddd;
+         font-size:3em;
+         bottom:10%;
+         left:50%;
+         transform: translate(-50%, -50%);
+     }
+     footer{
+         background-color: #532c60;
+         color: #ddd;
+         height:10em;
+         
+     }
+ }
+ /** Start 750px or more **/
+ @media only screen and (min-width: 750px){
+   .mobile-container {
+       max-width:100%;
+       margin: auto;
+     }
+     
+     .topnav {
+       overflow: hidden;
+       background-color: #333;
+       position: relative;
+     }
+     
+     .topnav #myLinks {
+       display: none;
+     }
+     
+     .topnav a {
+       color: white;
+       text-decoration: none;
+       display: block;
+     }
+     
+     .topnav a.icon {
+       background: black;
+       color:#ddd;
+       display: block;
+       position: absolute;
+       right: 0;
+       top: 0;
+     }
+     
+     .topnav a:hover {
+       background-color: #ddd;
+       color: black;
+       transition-duration: .5s;
+     }
+     
+     .active {
+       background-color: #532c60;
+       color: white;
+     }
+ }
+  /** Start 1920px or more **/
+  @media only screen and (min-width: 1920px){
+
+  }
+  /** End 1920px or more **/

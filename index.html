@@ -5,43 +5,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, inital-scale=1">
   <title>ACM-TREVECCA</title>
-  <link rel="stylesheet" type="text/css" href=".../index.css">
-  <link href="index.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="#"> 
+  <link rel="stylesheet" type="text/css" href="#">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css"> 
+  <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li class="logo">ACM</li>
-        <li>About</li>
-        <li>Resources</li>
-        <li>Join</li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <div class="mobile-container">
+          <div class="topnav">
+            <a href="https://www.trevecca.edu/" class="active"><img class="treveccaLogo" src="images/Trevecca-logo.png"></a>
+            <div id="myLinks">
+              <a href="https://www.trevecca.edu/offices-services">Offices & Services</a>
+              <a href="https://www.trevecca.edu/news">News</a>
+              <a href="https://www.trevecca.edu/about">About</a>
+              <a href="https://www.trevecca.edu/locations">Locations</a>
+              <a href="https://login.trevecca.edu/adfs/ls?wa=wsignin1.0&wtrealm=urn%3atnu4u.trevecca.edu%3a443&wctx=https%3a%2f%2ftnu4u.trevecca.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F">TNU4U</a>
+              <a href="https://blog.trevecca.edu">Blog</a>
+              <a href="https://www.trevecca.edu/program-chooser">Pick A Major</a>
+            </div>
+            <a href="javascript:void(0);" class = "icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+          </div>
+        </div>
+          <div class= "bottomnav">
+            <section class="bottomnav-logo">
+              <a href="https://www.acm.org/">
+              <aside>
+                <img src="images/acm_logo_tablet.svg">
+              </aside>
+            </section>
+            <section class="bottomnav-links">
+              <aside><a href="#">About</a></aside>
+              <aside><a href="#">Resources</a></aside>
+              <aside><a href="#">Join</a></aside>
+            </section>
+              
+          </div>
+          
+      </header>
   <div class="hero-image">
     <div class="hero-text">
+      <img src="images/achievmentAgreementArms.jpg">
       <h1 style="font-size:50px">Trevecca's ACM Chapter</h1>
-
-      <button>Join</button>
     </div>
   </div>
   <div class="trevecca-trojans">
     <div class="card">
       <img src="images/events.jpg">
-      <h3>Events</h3>
+      <h3 class="absolute-text">Events</h3>
     </div>
+    <br>
     <div class="card">
       <img src="images/picturs.jpg">
-      <h3>Pictures</h3>
+      <h3 class="absolute-text">AboutUs</h3>
     </div>
+    <br>
     <div class="card">
-      <img src="images/scholarship.jpg">
-      <h3>Scholarships</h3>
+      <img src="images/doors.jpg">
+      <h3 class="absolute-text">Opportunities</h3>
     </div>
   </div>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
   <footer>
     
       <p>&copy;Trevecca Acm Chapter 2019</p>
